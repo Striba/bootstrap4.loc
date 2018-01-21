@@ -8,7 +8,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
-    <title>Hello, Ladies!</title>
+    <title>Hello, world!</title>
   </head>
   <body>
       <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
@@ -24,7 +24,7 @@
                       <a href="#" class="nav-link">Home</a>
                   </li>
                   <li class="nav-item">
-                      <a href="#" class="nav-link" data-toggle="modal" data-target="#exampleModal">LogIn</a>
+                      <a href="#" class="nav-link" data-toggle="modal" data-target="#exampleModal">Pricing</a>
                   </li>
                   <li class="nav-item">
                       <a href="#" class="nav-link disabled">About us</a>
@@ -101,53 +101,62 @@
       </div>
       
       <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModal" aria-hidden="true">
-          <div class="modal-dialog" role="document">
+          <div class="modal-dialog modal-sm" role="document">
               <div class="modal-content">
                   <div class="modal-header">
-                      <h5 class="modal-title" id="exampleModalLabel">Авторизация</h5>
+                      <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
                       <button class="close" type="button" data-dismiss="modal" aria-label="close">
                           <span aria-hidden="true">&times;</span>
                       </button>
                   </div>
                   <div class="modal-body">
                       <p>Hello Ladies!</p>
-                     
+                      <p>It is a long established fact that a reader will be 
+                          distracted by the readable content of a page when 
+                          looking at its layout. The point of using Lorem Ipsum 
+                          is that it has a more-or-less normal distribution of 
+                          letters, as opposed to using 'Content here, content 
+                          here', making it look like readable English. Many 
+                          desktop publishing packages and web page editors now
+                          use Lorem Ipsum as their default model text, and a 
+                          search for 'lorem ipsum' will uncover many web sites
+                          still in their infancy. Various versions have evolved
+                          over the years, sometimes by accident, sometimes on 
+                          purpose (injected humour and the like).</p>
+                      <p>It is a long established fact that a reader will be 
+                          distracted by the readable content of a page when 
+                          looking at its layout. The point of using Lorem Ipsum 
+                          is that it has a more-or-less normal distribution of 
+                          letters, as opposed to using 'Content here, content 
+                          here', making it look like readable English. Many 
+                          desktop publishing packages and web page editors now
+                          use Lorem Ipsum as their default model text, and a 
+                          search for 'lorem ipsum' will uncover many web sites
+                          still in their infancy. Various versions have evolved
+                          over the years, sometimes by accident, sometimes on 
+                          purpose (injected humour and the like).</p>
+                      <p>It is a long established fact that a reader will be 
+                          distracted by the readable content of a page when 
+                          looking at its layout. The point of using Lorem Ipsum 
+                          is that it has a more-or-less normal distribution of 
+                          letters, as opposed to using 'Content here, content 
+                          here', making it look like readable English. Many 
+                          desktop publishing packages and web page editors now
+                          use Lorem Ipsum as their default model text, and a 
+                          search for 'lorem ipsum' will uncover many web sites
+                          still in their infancy. Various versions have evolved
+                          over the years, sometimes by accident, sometimes on 
+                          purpose (injected humour and the like).</p>
                       <div class="container-fluid">
-                          <form>
-                            <div class="form-row">
-                                <div class="col">  
-                              <div class="form-group">
-                                  <label for="exampleInputEmail">Email adress</label>
-                                  <input type="email" class="form-control" 
-                                  id="exampleInputEmail" 
-                                  aria-describdby="emailHelp"
-                                  placeholder="Email">
-                                  <small id="emailHelp" class="form-text text-muted">Enter your Email</small>
-                              </div>
-                                </div>
-                                <div class="col">
-                              <div class="form-group">
-                                  <label for="exampleInputPass">Password</label>
-                                  <input type="password" class="form-control" 
-                                  id="exampleInputPass" 
-                                  placeholder="Password">
-                                  <small id="passHelp" class="form-text text-muted">Password should contain min 10 symbols</small>
-                              </div>
-                                <div>
-                                    <div class="col">    
-                              <div class="form-check">
-                                  <label class="form-check-label">
-                                      <input type="checkbox" class="form-check-input">
-                                      Stay saved
-                                  </label>
-                              </div>
-                                    </div>     
-                            </div>    
-                          </form>  
+                          <div class="row text-center">
+                              <div class="col-4">DHL</div>
+                              <div class="col-8">SIEMENS</div>
+                          </div>
                       </div>
                   </div>
                   <div class="modal-footer">
-                      <button type="submit" class="btn btn-primary">Send</button>
+                      <button class="btn btn-secondary">Close</button>
+                      <button class="btn btn-primary">Save</button>
                   </div>
               </div>
           </div>
